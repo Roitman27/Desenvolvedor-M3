@@ -1,3 +1,385 @@
+/* HEADER*/
+.logo_m3 {
+    position: absolute;
+    width: 119px;
+    height: 30px;
+    left: 162px;
+    top: 16px;
+}
+
+.icon {
+    position:absolute;
+    width: 20px;
+    height: 23px;
+    left: 1317px;
+    top: 20px;
+}
+
+#linha_vertical {
+    position: absolute;
+    width: 1500px;
+    height: 2px;
+    left: 0px;
+    top: 62px;
+
+    background: #C7C7C7;
+}
+
+/*MAIN*/
+
+.blusas {
+
+    position: absolute;
+    width: 97px;
+    height: 44px;
+    left: 162px;
+    top: 104px;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 44px;
+
+    color: #333333;
+}
+
 ul {
     list-style: none;
+}
+
+.ordenar_por {
+    position: absolute;
+    width: 142px;
+    height: 42px;
+    left: 1196px;
+    top: 117px;
+
+    box-sizing: border-box;
+}
+
+/*LISTA DE PRODUTOS*/
+
+/*LISTA 1*/
+.produtos_lista1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0px;
+
+    position: absolute;
+    width: 976px;
+    height: 426px;
+    left: 362px;
+    top: 213px;
+}
+
+/*CAMISETA MESCLA*/
+
+#camiseta_mescla {
+    position: static;
+    width: 195.25px;
+    height: 424px;
+    left: 131.12px;
+    top: 0px;
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 64px;
+}
+
+#camiseta_mescla img {
+    position: absolute;
+    width: 195px;
+    height: 293px;
+    left: 131.12px;
+    top: 0px;
+}
+
+#camiseta_mescla .descricao {
+    position: absolute;
+    width: 124px;
+    height: 19px;
+    left: 167.12px;
+    top: 303px;
+    
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+
+    text-transform: uppercase;
+    
+    color: #000000;
+}
+
+#camiseta_mescla .preco {
+    position: absolute;
+    width: 66px;
+    height: 22px;
+    left: 196.12px;
+    top: 332px;
+    
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+
+    color: #000000;
+}
+
+#camiseta_mescla .parcelamento {
+    position: absolute;
+    width: 123px;
+    height: 22px;
+    left: 167.12px;
+    top: 355px;
+    
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+
+    color: #666666;
+}
+
+#camiseta_mescla button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 7px 49px;
+    
+    position: absolute;
+    width: 195px;
+    height: 33px;
+    left: 131.38px;
+    top: 391px;
+    
+    background: #000000;
+}
+
+/*SAIA EM COURO*/
+
+#saia_couro {
+    position: static;
+    width: 195.5px;
+    height: 423px;
+    left: 390.38px;
+    top: 0px;
+    
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 64px;
+}
+
+#saia_couro img {
+    position: absolute;
+    width: 195px;
+    height: 293px;
+    left: 390.88px;
+    top: 0px;
+}
+
+#saia_couro .descricao {
+    position: absolute;
+    width: 107px;
+    height: 19px;
+    left: 434.88px;
+    top: 303px;
+    
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    
+    text-transform: uppercase;
+    
+    color: #000000;
+}
+
+#saia_couro .preco {
+    position: absolute;
+    width: 75px;
+    height: 22px;
+    left: 450.88px;
+    top: 332px;
+    
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+
+    
+    color: #000000;    
+}
+
+#saia_couro .parcelamento {
+    position: absolute;
+    width: 142px;
+    height: 22px;
+    left: 416.88px;
+    top: 354px;
+    
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+
+    color: #666666;
+}
+
+#saia_couro button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 7px 49px;
+    
+    position: absolute;
+    width: 195px;
+    height: 33px;
+    left: 390.38px;
+    top: 390px;
+    
+    background: #000000;
+}
+
+/*CARDIGAN TIGRE*/
+
+#cardigan_tigre {
+    position: static;
+    width: 195px;
+    height: 426px;
+    left: 649.88px;
+    top: 0px;
+    
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    margin: 0px 64px;
+}
+
+#cardigan_tigre img{
+    position: absolute;
+    width: 191.78px;
+    height: 293px;
+    left: 652.38px;
+    top: 0px;
+}
+
+#cardigan_tigre .descricao{
+    position: absolute;
+    width: 113px;
+    height: 19.32px;
+    left: 691.38px;
+    top: 303.97px;
+    
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    text-transform: uppercase;
+    
+    color: #000000;
+}
+
+#cardigan_tigre .preco{
+    position: absolute;
+    width: 75px;
+    height: 22.37px;
+    left: 710.38px;
+    top: 333.47px;
+    
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    
+    color: #000000;
+}
+
+#cardigan_tigre .parcelamento{
+    position: absolute;
+    width: 142px;
+    height: 22.37px;
+    left: 676.38px;
+    top: 355.84px;
+    
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    
+    color: #666666;
+}
+
+#cardigan_tigre button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 7px 49px;
+    
+    position: absolute;
+    width: 195px;
+    height: 33.55px;
+    left: 649.88px;
+    top: 392.45px;
+    
+    background: #000000
+}
+
+/*LISTA 2 */
+
+.produtos_lista2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0px;
+    
+    position: absolute;
+    width: 976px;
+    height: 426px;
+    left: 362px;
+    top: 679px;
+}
+
+.produtos_lista3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0px;
+    
+    position: absolute;
+    width: 976px;
+    height: 426px;
+    left: 362px;
+    top: 1145px;
+}
+
+/*FOOTER*/
+
+footer {
+    position: absolute;
+    width: 1500px;
+    height: 33px;
+    left: 0px;
+    top: 1711px;
+
+
 }

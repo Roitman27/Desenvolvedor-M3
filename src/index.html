@@ -6,25 +6,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>M3 - Performance digital</title>
-    <link rel="stylesheet" href="main.css" />
-   <link rel="stylesheet" href="/src/style.css">
+    <link rel="stylesheet" href="/src/style.css">
 
   </head>
   <body>
     <header>
-      <div class="barra">
+      <div class="box">
         
-        <img class="logo" src="/src/img/logo-m3.png" alt="Logo M3">
-        <img class="compra" src="/src/img/image 3.png" alt="Carrinho de compras">
-
+        <img class="logo_m3" src="/src/img/logo-m3.png" alt="Logo M3">
+        <img class="icon" src="/src/img/image 3.png" alt="Carrinho de compras">
+        <div id="linha_vertical"></div>
       </div> 
     </header>
 
     <main>
         
-      <h2>Blusas</h2>
+      <h1 class="blusas">Blusas</h1>
 
-      <fieldset>
+      <fieldset class="ordenar_por">
         <select>
             <option>Mais recentes</option>
             <option>Menor preço</option>
@@ -32,7 +31,7 @@
         </select>
       </fieldset>
 
-      <div class="filtro">
+      <div class="filtros">
         <ul class="filtro_cor">
           <li></li>
           <li></li>
@@ -69,76 +68,89 @@
         </ul>
       </div>
 
-      <div class="itens">
-        <ul class="produtos">  
+      <div class="produtos">
+        <ul class="produtos_lista1">  
+          <div id="camiseta_mescla">
+            <li>
+              <img src="/src/img/img_2.png" alt="">
+              <p class="descricao">CAMISETA MESCLA</p>
+              <p class="preco">R$ 28,00</p>
+              <P class="parcelamento">até 3x de R$9,33</P>
+              <button>Comprar</button>
+            </li>
+          </div>  
+          <div id="saia_couro">
+            <li>
+              <img src="/src/img/img_3.png" alt="">
+              <p class="descricao">SAIA EM COURO</p>
+              <p class="preco">R$ 398,00</p>
+              <p class="parcelamento">até 10x de R$39,80</p>
+              <button>Comprar</button>
+            </li>
+          </div>  
+          <div id="cardigan_tigre">
+            <li>
+              <img src="/src/img/img_4.png" alt="">
+              <p class="descricao">CARDIGAN TIGRE  </p>
+              <p class="preco">R$ 398,00</p>
+              <p class="parcelamento">até 10x de R$39,80</p>
+              <button>Comprar</button>
+            </li>
+          </div>
+        </ul>
+        <!--CONTINUAR A PARTIR DAQUI-->
+        <ul class="produtos_lista2">  
           <li>
-            <h3></h3>
-            <img src="/src/img/img_2.png" alt="">
-            <p class=""></p>
-            <p class=""></p>
-            <button>Comprar</button>
-          </li>
-          <li>
-            <h3></h3>
-            <img src="/src/img/img_3.png" alt="">
-            <p class=""></p>
-            <p class=""></p>
-            <button>Comprar</button>
-          </li>
-          <li>
-            <h3></h3>
-            <img src="/src/img/img_4.png" alt="">
-            <p class=""></p>
-            <p class=""></p>
-            <button>Comprar</button>
-          </li>
-          <li>
-            <h3></h3>
             <img src="/src/img/img_5.png" alt="">
-            <p class=""></p>
-            <p class=""></p>
+            <p class="desc_produto">CARDIGAN OFF WHITE</p>
+            <p class="preco_produto">R$ 99,90</p>
+            <p class="parcelamento_produto">até 3x de R$33,30</p>
             <button>Comprar</button>
           </li>
           <li>
-            <h3></h3>
             <img src="/src/img/img_6.png" alt="">
-            <p class=""></p>
-            <p class=""></p>
+            <p class="desc_produto">BODY LEOPARDO</p>
+            <p class="preco_produto">R$ 129,90</p>
+            <p class="parcelamento_produto">até 3x de R$43,43</p>
             <button>Comprar</button>
           </li>
           <li>
-            <h3></h3>
             <img src="/src/img/img_7.png" alt="">
-            <p class=""></p>
-            <p class=""></p>
+            <p class="desc_produto">CASACO PELOS</p>
+            <p class="preco_produto">R$ 398,00</p>
+            <p class="parcelamento_produto">até 10x de R$ 39,80</p>
             <button>Comprar</button>
           </li>
+        </ul>
+
+        <ul class="produtos_lista3"> 
           <li>
-            <h3></h3>
             <img src="/src/img/img_8.png" alt="">
-            <p class=""></p>
-            <p class=""></p>
+            <p class="desc_produto">CROPPED STRIPES</p>
+            <p class="preco_produto">R$ 120,00</p>
+            <p class="parcelamento_produto">até 3x de R$40,00</p>
             <button>Comprar</button>
           </li>
           <li>
-            <h3></h3>
             <img src="/src/img/img_9.png" alt="">
-            <p class=""></p>
-            <p class=""></p>
+            <p class="desc_produto">CAMISA TRANSPARENTE</p>
+            <p class="preco_produto">R$ 398,00</p>
+            <p class="parcelamento_produto">até 10x de R$39,80</p>
             <button>Comprar</button>
           </li>
           <li>
-            <h3></h3>
             <img src="/src/img/img_10.png" alt="">
-            <p class=""></p>
-            <p class=""></p>
+            <p class="desc_produto">CARDIGAN TIGRE</p>
+            <p class="preco_produto">R$ 398,00</p>
+            <p class="parcelamento_produto">até 10x de R$39,80</p>
             <button>Comprar</button>
            </li>
         
         </ul>
       </div>
 
-      <button>CARREGAR MAIS</button>
+      <button class="button_mais"><p class="button_txt">CARREGAR MAIS</p></button>
+
     </main>
 
     <footer>
@@ -146,6 +158,7 @@
     </footer>
   </body>
   
+  <script src="/src/js/index.js"></script>
   <script src="bundle.js"></script>
 
 </html>
