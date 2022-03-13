@@ -20,134 +20,32 @@
     </header>
 
     <main>
-        
-      <h1 class="blusas">Blusas</h1>
+      
+      <div id="ordena">
+        <select name="select" id="myselect">
+          <option value="orderBy" hidden>Ordernar por:</option>
+          <option value="recent">Mais recentes</option>
+          <option value="lowestPrice">Menor preço</option>
+          <option value="biggestPrice">Maior preço</option>
+      </select>
 
-      <fieldset class="ordenar_por">
-        <select>
-            <option>Mais recentes</option>
-            <option>Menor preço</option>
-            <option>Maior preço</option>
-        </select>
-      </fieldset>
-
-      <div class="filtros">
-        <ul class="filtro_cor">
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-        </ul>
-
-        <ul class="filtro_tamanho">
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-        </ul>
-
-        <ul class="filtro_preco">
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
-        </ul>
       </div>
-
-      <div class="produtos">
-        <ul class="produtos_lista1">  
-          <div id="camiseta_mescla">
-            <li>
-              <img src="/src/img/img_2.png" alt="">
-              <p class="descricao">CAMISETA MESCLA</p>
-              <p class="preco">R$ 28,00</p>
-              <P class="parcelamento">até 3x de R$9,33</P>
-              <button>Comprar</button>
-            </li>
-          </div>  
-          <div id="saia_couro">
-            <li>
-              <img src="/src/img/img_3.png" alt="">
-              <p class="descricao">SAIA EM COURO</p>
-              <p class="preco">R$ 398,00</p>
-              <p class="parcelamento">até 10x de R$39,80</p>
-              <button>Comprar</button>
-            </li>
-          </div>  
-          <div id="cardigan_tigre">
-            <li>
-              <img src="/src/img/img_4.png" alt="">
-              <p class="descricao">CARDIGAN TIGRE  </p>
-              <p class="preco">R$ 398,00</p>
-              <p class="parcelamento">até 10x de R$39,80</p>
-              <button>Comprar</button>
-            </li>
-          </div>
-        </ul>
-        <!--CONTINUAR A PARTIR DAQUI-->
-        <ul class="produtos_lista2">  
-          <li>
-            <img src="/src/img/img_5.png" alt="">
-            <p class="desc_produto">CARDIGAN OFF WHITE</p>
-            <p class="preco_produto">R$ 99,90</p>
-            <p class="parcelamento_produto">até 3x de R$33,30</p>
-            <button>Comprar</button>
-          </li>
-          <li>
-            <img src="/src/img/img_6.png" alt="">
-            <p class="desc_produto">BODY LEOPARDO</p>
-            <p class="preco_produto">R$ 129,90</p>
-            <p class="parcelamento_produto">até 3x de R$43,43</p>
-            <button>Comprar</button>
-          </li>
-          <li>
-            <img src="/src/img/img_7.png" alt="">
-            <p class="desc_produto">CASACO PELOS</p>
-            <p class="preco_produto">R$ 398,00</p>
-            <p class="parcelamento_produto">até 10x de R$ 39,80</p>
-            <button>Comprar</button>
-          </li>
-        </ul>
-
-        <ul class="produtos_lista3"> 
-          <li>
-            <img src="/src/img/img_8.png" alt="">
-            <p class="desc_produto">CROPPED STRIPES</p>
-            <p class="preco_produto">R$ 120,00</p>
-            <p class="parcelamento_produto">até 3x de R$40,00</p>
-            <button>Comprar</button>
-          </li>
-          <li>
-            <img src="/src/img/img_9.png" alt="">
-            <p class="desc_produto">CAMISA TRANSPARENTE</p>
-            <p class="preco_produto">R$ 398,00</p>
-            <p class="parcelamento_produto">até 10x de R$39,80</p>
-            <button>Comprar</button>
-          </li>
-          <li>
-            <img src="/src/img/img_10.png" alt="">
-            <p class="desc_produto">CARDIGAN TIGRE</p>
-            <p class="preco_produto">R$ 398,00</p>
-            <p class="parcelamento_produto">até 10x de R$39,80</p>
-            <button>Comprar</button>
-           </li>
         
-        </ul>
-      </div>
+      <div id="filtroCores" class="filtro">
+
+      </div><!--Filtro de cores-->
+
+      <div id="filtroTamanhos" class="filtro">
+
+      </div><!--Filtro de tamanho-->
+
+      <div id="filtroPreco" class="filtro">
+
+      </div><!--Filtro de preços-->
+
+      <div id="produtos">
+      
+      </div><!--Produtos-->
 
       <button class="button_mais"><p class="button_txt">CARREGAR MAIS</p></button>
 
@@ -159,6 +57,4 @@
   </body>
   
   <script src="/src/js/index.js"></script>
-  <script src="bundle.js"></script>
-
 </html>
